@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Central Station",
+    "location": {
+      "city": "New York",
+      "state": "New York"
+    }
+  },
+  {
+    "name": "Union Station",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois"
+    }
+  },
+  {
+    "name": "Grand Terminal",
+    "location": {
+      "city": "Los Angeles",
+      "state": "California"
+    }
+  },
+  {
+    "name": "City Center Station",
+    "location": {
+      "city": "Houston",
+      "state": "Texas"
+    }
+  },
+  {
+    "name": "Lakeside Station",
+    "location": {
+      "city": "Seattle",
+      "state": "Washington"
+    }
+  },
+  {
+    "name": "Capitol Station",
+    "location": {
+      "city": "Austin",
+      "state": "Texas"
+    }
+  },
+  {
+    "name": "Bayfront Station",
+    "location": {
+      "city": "San Francisco",
+      "state": "California"
+    }
+  },
+  {
+    "name": "Downtown Station",
+    "location": {
+      "city": "Miami",
+      "state": "Florida"
+    }
+  },
+  {
+    "name": "Riverdale Station",
+    "location": {
+      "city": "Denver",
+      "state": "Colorado"
+    }
+  },
+  {
+    "name": "Pine Ridge Station",
+    "location": {
+      "city": "Portland",
+      "state": "Oregon"
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a4e"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "password": "123456",
+    "role": "admin",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a4f"
+  },
+  {
+    "name": "Alice Johnson",
+    "email": "alicej@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a50"
+  },
+  {
+    "name": "Bob Williams",
+    "email": "bobwilliams@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a51"
+  },
+  {
+    "name": "Charlie Brown",
+    "email": "charlieb@example.com",
+    "password": "123456",
+    "role": "admin",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a52"
+  },
+  {
+    "name": "David Miller",
+    "email": "davidmiller@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a53"
+  },
+  {
+    "name": "Emma Wilson",
+    "email": "emmawilson@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a54"
+  },
+  {
+    "name": "Frank Thomas",
+    "email": "frankthomas@example.com",
+    "password": "123456",
+    "role": "admin",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a55"
+  },
+  {
+    "name": "Grace Lee",
+    "email": "gracelee@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a56"
+  },
+  {
+    "name": "Hannah Walker",
+    "email": "hannahwalker@example.com",
+    "password": "123456",
+    "role": "user",
+    "wallet": "64d3c0f0b28f5a6c1f2e3a57"
+  }
+]

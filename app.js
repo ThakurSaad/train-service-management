@@ -10,11 +10,13 @@ const userRoute = require("./routes/user.route");
 const stationRoute = require("./routes/station.route");
 const walletRoute = require("./routes/wallet.route");
 const trainRoute = require("./routes/train.route");
+const ticketRoute = require("./routes/ticket.route");
 
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1", stationRoute);
 app.use("/api/v1", walletRoute);
 app.use("/api/v1", trainRoute);
+app.use("/api/v1", ticketRoute);
 
 app.get("/", (req, res) => {
   res.status(200).json({

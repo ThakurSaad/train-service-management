@@ -22,18 +22,18 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: [true, "Password is required"],
-      //   validate: {
-      //     validator: (value) =>
-      //       validator.isStrongPassword(value, {
-      //         minLength: 6,
-      //         minLowercase: 3,
-      //         minNumbers: 1,
-      //         minUppercase: 1,
-      //         minSymbols: 1,
-      //       }),
-      //     message:
-      //       "Password {VALUE} is not strong enough. It should have at least 6 characters, including 3 lowercase letters, 1 uppercase letter, 1 number, and 1 symbol.",
-      //   },
+      validate: {
+        validator: (value) =>
+          validator.isStrongPassword(value, {
+            minLength: 6,
+            minLowercase: 3,
+            minNumbers: 1,
+            minUppercase: 1,
+            minSymbols: 1,
+          }),
+        message:
+          "Password {VALUE} is not strong enough. It should have at least 6 characters, including 3 lowercase letters, 1 uppercase letter, 1 number, and 1 symbol.",
+      },
     },
 
     role: {

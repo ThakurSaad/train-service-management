@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Express Line 1",
+    "stops": [
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 5,
+        "arrivalTime": "08:00",
+        "departureTime": "08:10"
+      },
+      {
+        "station": "Union Station",
+        "distanceFromCenter": 12,
+        "arrivalTime": "08:30",
+        "departureTime": "08:40"
+      },
+      {
+        "station": "Grand Terminal",
+        "distanceFromCenter": 19,
+        "arrivalTime": "09:00",
+        "departureTime": "09:10"
+      },
+      {
+        "station": "City Center Station",
+        "distanceFromCenter": 24,
+        "arrivalTime": "09:30",
+        "departureTime": "09:40"
+      },
+      {
+        "station": "Lakeside Station",
+        "distanceFromCenter": 30,
+        "arrivalTime": "10:00",
+        "departureTime": "10:10"
+      },
+      {
+        "station": "Capitol Station",
+        "distanceFromCenter": 37,
+        "arrivalTime": "10:30",
+        "departureTime": "10:40"
+      },
+      {
+        "station": "Bayfront Station",
+        "distanceFromCenter": 41,
+        "arrivalTime": "11:00",
+        "departureTime": "11:10"
+      },
+      {
+        "station": "Downtown Station",
+        "distanceFromCenter": 46,
+        "arrivalTime": "11:30",
+        "departureTime": "11:40"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 48,
+        "arrivalTime": "12:00",
+        "departureTime": "12:10"
+      },
+      {
+        "station": "Pine Ridge Station",
+        "distanceFromCenter": 50,
+        "arrivalTime": "12:30",
+        "departureTime": "12:40"
+      }
+    ],
+    "status": "Scheduled"
+  },
+  {
+    "name": "Express Line 2",
+    "stops": [
+      {
+        "station": "Pine Ridge Station",
+        "distanceFromCenter": 5,
+        "arrivalTime": "13:00",
+        "departureTime": "13:10"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 12,
+        "arrivalTime": "13:30",
+        "departureTime": "13:40"
+      },
+      {
+        "station": "Downtown Station",
+        "distanceFromCenter": 19,
+        "arrivalTime": "14:00",
+        "departureTime": "14:10"
+      },
+      {
+        "station": "Bayfront Station",
+        "distanceFromCenter": 24,
+        "arrivalTime": "14:30",
+        "departureTime": "14:40"
+      },
+      {
+        "station": "Capitol Station",
+        "distanceFromCenter": 30,
+        "arrivalTime": "15:00",
+        "departureTime": "15:10"
+      },
+      {
+        "station": "Lakeside Station",
+        "distanceFromCenter": 37,
+        "arrivalTime": "15:30",
+        "departureTime": "15:40"
+      },
+      {
+        "station": "City Center Station",
+        "distanceFromCenter": 41,
+        "arrivalTime": "16:00",
+        "departureTime": "16:10"
+      },
+      {
+        "station": "Grand Terminal",
+        "distanceFromCenter": 46,
+        "arrivalTime": "16:30",
+        "departureTime": "16:40"
+      },
+      {
+        "station": "Union Station",
+        "distanceFromCenter": 48,
+        "arrivalTime": "17:00",
+        "departureTime": "17:10"
+      },
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 50,
+        "arrivalTime": "17:30",
+        "departureTime": "17:40"
+      }
+    ],
+    "status": "Scheduled"
+  },
+  {
+    "name": "Express Line 3",
+    "stops": [
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 5,
+        "arrivalTime": "06:00",
+        "departureTime": "06:05"
+      },
+      {
+        "station": "Union Station",
+        "distanceFromCenter": 12,
+        "arrivalTime": "06:15",
+        "departureTime": "06:20"
+      },
+      {
+        "station": "Grand Terminal",
+        "distanceFromCenter": 19,
+        "arrivalTime": "06:30",
+        "departureTime": "06:35"
+      },
+      {
+        "station": "City Center Station",
+        "distanceFromCenter": 24,
+        "arrivalTime": "06:45",
+        "departureTime": "06:50"
+      },
+      {
+        "station": "Lakeside Station",
+        "distanceFromCenter": 30,
+        "arrivalTime": "07:00",
+        "departureTime": "07:05"
+      },
+      {
+        "station": "Capitol Station",
+        "distanceFromCenter": 37,
+        "arrivalTime": "07:15",
+        "departureTime": "07:20"
+      },
+      {
+        "station": "Bayfront Station",
+        "distanceFromCenter": 41,
+        "arrivalTime": "07:30",
+        "departureTime": "07:35"
+      },
+      {
+        "station": "Downtown Station",
+        "distanceFromCenter": 46,
+        "arrivalTime": "07:45",
+        "departureTime": "07:50"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 48,
+        "arrivalTime": "08:00",
+        "departureTime": "08:05"
+      },
+      {
+        "station": "Pine Ridge Station",
+        "distanceFromCenter": 50,
+        "arrivalTime": "08:15",
+        "departureTime": "08:20"
+      }
+    ],
+    "status": "Scheduled"
+  },
+  {
+    "name": "Express Line 4",
+    "stops": [
+      {
+        "station": "Pine Ridge Station",
+        "distanceFromCenter": 5,
+        "arrivalTime": "10:00",
+        "departureTime": "10:05"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 12,
+        "arrivalTime": "10:15",
+        "departureTime": "10:20"
+      },
+      {
+        "station": "Downtown Station",
+        "distanceFromCenter": 19,
+        "arrivalTime": "10:30",
+        "departureTime": "10:35"
+      },
+      {
+        "station": "Bayfront Station",
+        "distanceFromCenter": 24,
+        "arrivalTime": "10:45",
+        "departureTime": "10:50"
+      },
+      {
+        "station": "Capitol Station",
+        "distanceFromCenter": 30,
+        "arrivalTime": "11:00",
+        "departureTime": "11:05"
+      },
+      {
+        "station": "Lakeside Station",
+        "distanceFromCenter": 37,
+        "arrivalTime": "11:15",
+        "departureTime": "11:20"
+      },
+      {
+        "station": "City Center Station",
+        "distanceFromCenter": 41,
+        "arrivalTime": "11:30",
+        "departureTime": "11:35"
+      },
+      {
+        "station": "Grand Terminal",
+        "distanceFromCenter": 46,
+        "arrivalTime": "11:45",
+        "departureTime": "11:50"
+      },
+      {
+        "station": "Union Station",
+        "distanceFromCenter": 48,
+        "arrivalTime": "12:00",
+        "departureTime": "12:05"
+      },
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 50,
+        "arrivalTime": "12:15",
+        "departureTime": "12:20"
+      }
+    ],
+    "status": "Scheduled"
+  },
+  {
+    "name": "Express Line 5",
+    "stops": [
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 5,
+        "arrivalTime": "08:00",
+        "departureTime": "08:15"
+      },
+      {
+        "station": "City Center Station",
+        "distanceFromCenter": 12,
+        "arrivalTime": "08:45",
+        "departureTime": "09:00"
+      },
+      {
+        "station": "Lakeside Station",
+        "distanceFromCenter": 19,
+        "arrivalTime": "09:30",
+        "departureTime": "09:45"
+      },
+      {
+        "station": "Bayfront Station",
+        "distanceFromCenter": 24,
+        "arrivalTime": "10:15",
+        "departureTime": "10:30"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 30,
+        "arrivalTime": "11:00",
+        "departureTime": "11:15"
+      }
+    ],
+    "status": "Scheduled"
+  },
+  {
+    "name": "Express Line 6",
+    "stops": [
+      {
+        "station": "Pine Ridge Station",
+        "distanceFromCenter": 37,
+        "arrivalTime": "14:00",
+        "departureTime": "14:15"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 41,
+        "arrivalTime": "14:45",
+        "departureTime": "15:00"
+      },
+      {
+        "station": "Downtown Station",
+        "distanceFromCenter": 46,
+        "arrivalTime": "15:30",
+        "departureTime": "15:45"
+      },
+      {
+        "station": "Capitol Station",
+        "distanceFromCenter": 48,
+        "arrivalTime": "16:15",
+        "departureTime": "16:30"
+      },
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 50,
+        "arrivalTime": "17:00",
+        "departureTime": "17:15"
+      }
+    ],
+    "status": "Scheduled"
+  },
+  {
+    "name": "Express Line 7",
+    "stops": [
+      {
+        "station": "Central Station",
+        "distanceFromCenter": 5,
+        "arrivalTime": "09:00",
+        "departureTime": "09:10"
+      },
+      {
+        "station": "Grand Terminal",
+        "distanceFromCenter": 12,
+        "arrivalTime": "09:30",
+        "departureTime": "09:40"
+      },
+      {
+        "station": "Union Station",
+        "distanceFromCenter": 19,
+        "arrivalTime": "10:00",
+        "departureTime": "10:10"
+      },
+      {
+        "station": "Bayfront Station",
+        "distanceFromCenter": 24,
+        "arrivalTime": "10:30",
+        "departureTime": "10:40"
+      },
+      {
+        "station": "Capitol Station",
+        "distanceFromCenter": 30,
+        "arrivalTime": "11:00",
+        "departureTime": "11:10"
+      },
+      {
+        "station": "Lakeside Station",
+        "distanceFromCenter": 37,
+        "arrivalTime": "11:30",
+        "departureTime": "11:40"
+      },
+      {
+        "station": "City Center Station",
+        "distanceFromCenter": 41,
+        "arrivalTime": "12:00",
+        "departureTime": "12:10"
+      },
+      {
+        "station": "Riverdale Station",
+        "distanceFromCenter": 46,
+        "arrivalTime": "12:30",
+        "departureTime": "12:40"
+      },
+      {
+        "station": "Downtown Station",
+        "distanceFromCenter": 48,
+        "arrivalTime": "13:00",
+        "departureTime": "13:10"
+      },
+      {
+        "station": "Pine Ridge Station",
+        "distanceFromCenter": 50,
+        "arrivalTime": "13:30",
+        "departureTime": "13:40"
+      }
+    ],
+    "status": "Scheduled"
+  }
+]

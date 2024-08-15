@@ -9,6 +9,11 @@ const stationSchema = new Schema(
       unique: true,
     },
 
+    distanceFromCenter: {
+      type: Number,
+      required: true,
+    },
+
     location: {
       city: { type: String, required: true },
       state: { type: String, required: true },

@@ -146,4 +146,53 @@ Root directory with versioning `http://localhost:5000/api/v1`
     }
    ```
 
-##
+## train route
+
+1. post `/train/add-train`
+
+   - example `req.body`
+
+   ```
+     {
+        "name": "Express Line 1",
+        "stops": [
+            {
+                "station": "Grand Terminal",
+                "distanceFromCenter": 19,
+                "arrivalTime": "09:00",
+                "departureTime": "09:10"
+            },
+            {
+                "station": "City Center Station",
+                "distanceFromCenter": 24,
+                "arrivalTime": "09:30",
+                "departureTime": "09:40"
+            },
+            {
+                "station": "Lakeside Station",
+                "distanceFromCenter": 30,
+                "arrivalTime": "10:00",
+                "departureTime": "10:10"
+            },
+            {
+                "station": "Capitol Station",
+                "distanceFromCenter": 37,
+                "arrivalTime": "10:30",
+                "departureTime": "10:40"
+            },
+            {
+                "station": "Bayfront Station",
+                "distanceFromCenter": 41,
+                "arrivalTime": "11:00",
+                "departureTime": "11:10"
+            },
+            {
+                "station": "Downtown Station",
+                "distanceFromCenter": 46,
+                "arrivalTime": "11:30",
+                "departureTime": "11:40"
+            }
+        ],
+        "status": "Scheduled"
+    },
+   ```

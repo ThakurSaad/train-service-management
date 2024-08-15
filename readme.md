@@ -84,24 +84,24 @@ Root directory with versioning `http://localhost:5000/api/v1`
 
 ## ticket route
 
-1. post `/purchase-ticket`
+1.  post `/purchase-ticket`
 
-   validated for insufficient balance, used aggregation.
+    validated for insufficient balance, used aggregation.
 
-   stopStation and startStation availability is checked. If the train.stops array does not include these station, ticket purchase is not performed and user is sent all the stops for the train and then choose from it.
+    stopStation and startStation availability is checked. If the train.stops array does not include these station, ticket purchase is not performed and user is sent all the stops for the train and then choose from it.
 
-   To calculate fare, a special property `distanceFromCenter` is used. For this, I have imagined a central station from where every train starts. `distanceFromCenter` is treated as km and the fare is calculated according to stops and travel distance.
+    To calculate fare, a special property `distanceFromCenter` is used. For this, I have imagined a central station from where every train starts. `distanceFromCenter` is treated as km and the fare is calculated according to stops and travel distance.
 
-   - example `req.body`
+    - example `req.body`
 
-   ```
+    ```
     {
-   "userId": "66be0d5bd17a80d9cbd73b4f",
-   "trainId": "66be0cbfd7bcad03c59c2a6d",
-   "startStation": "Downtown Station",
-   "stopStation": "Grand Terminal"
-   }
-   ```
+    "userId": "66be0d5bd17a80d9cbd73b4f",
+    "trainId": "66be0cbfd7bcad03c59c2a6d",
+    "startStation": "Downtown Station",
+    "stopStation": "Grand Terminal"
+    }
+    ```
 
 ## wallet route
 
@@ -145,3 +145,5 @@ Root directory with versioning `http://localhost:5000/api/v1`
     "amount": 4
     }
    ```
+
+##

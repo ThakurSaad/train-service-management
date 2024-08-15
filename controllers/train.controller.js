@@ -103,6 +103,48 @@ exports.createSchedule = async (req, res) => {
     const { station, distanceFromCenter, arrivalTime, departureTime } =
       req.body;
 
+    if (!station || !distanceFromCenter || !arrivalTime || !departureTime) {
+      return res.status(400).json({
+        status: "Bad request",
+        message:
+          "Ensure you have provided all the fields e.g. station, distanceFromCenter, arrivalTime, departureTime",
+      });
+    }
+
+    const checkTimeFormat = /^([01]\d|2[0-3]):([0-5]\d)$/;
+
+    if (arrivalTime) {
+      // check if the provided time format matches "HH:mm" format
+      const passed = checkTimeFormat.test(arrivalTime);
+
+      if (!passed) {
+        return res.status(400).json({
+          status: "Bad request",
+          message:
+            "Ensure you have maintained 'HH:mm' format for time. Remove any white space. Supported time format '16:30', '08:05', '16:70'",
+        });
+      }
+    }
+
+    if (departureTime) {
+      const passed = checkTimeFormat.test(departureTime);
+
+      if (!passed) {
+        return res.status(400).json({
+          status: "Bad request",
+          message:
+            "Ensure you have maintained 'HH:mm' format for time. Remove any white space. Supported time format '16:30', '08:05', '16:70'",
+        });
+      }
+    }
+
+    if (arrivalTime >= departureTime) {
+      return res.status(400).json({
+        status: "Bad request",
+        message: "arrivalTime must be before departureTime",
+      });
+    }
+
     const stationName = station?.replace(/^\s+|\s+$/g, ""); // remove extra white space
     const scheduleInfo = {
       station: stationName,

@@ -18,6 +18,7 @@ exports.verifyToken = async (req, res, next) => {
         return res.status(400).json({
           status: "Bad request",
           message: "Client error",
+          error: err.message,
         });
       } else {
         req.decoded = decoded;

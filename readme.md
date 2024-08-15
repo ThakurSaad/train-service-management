@@ -1,6 +1,8 @@
 # Shadhin Bangla Railway
 
-This is a train Service Management System with Scheduling, Wallet Integration, and User Management.
+- This is a train Service Management System with Scheduling, Wallet Integration, and User Management.
+
+- each date field is validated other than createdAt and updatedAt field
 
 ## run the project
 
@@ -10,7 +12,11 @@ This is a train Service Management System with Scheduling, Wallet Integration, a
 
 ## working with the APIs
 
-Root directory with versioning `http://localhost:5000/api/v1`
+- Live Server Root directory `https://train-service-management.vercel.app/api/v1`
+
+- Local Root directory `http://localhost:5000/api/v1`
+
+- [My postman workspace](https://red-firefly-96233.postman.co/workspace/train-management-service~fc722b3e-3185-445d-8c4f-d50fb417481b/request/22651644-e9026895-1b38-41d7-bfd3-a15048328685?action=share&creator=22651644&ctx=documentation). Feel free to use my workspace as you like. 
 
 ## user routes
 
@@ -195,4 +201,64 @@ Root directory with versioning `http://localhost:5000/api/v1`
         ],
         "status": "Scheduled"
     },
+   ```
+
+2. get `/train` all trains
+
+   - example `req.body`
+
+   ```
+    n/a
+   ```
+
+3. get `/train/:name` name=name of the train
+
+   - example `req.body`
+
+   ```
+    n/a
+   ```
+
+4. get `/schedule/:name` name=name of the train
+
+   retrieves all the schedules of that train. Schedules are the stops for that train
+
+   - example `req.body`
+
+   ```
+    n/a
+   ```
+
+5. post `/schedule/:trainId`
+
+   adds a new schedule to the stops array of that train. prevented from adding duplicate schedules. Handled all possible edge cases
+
+   - example `req.body`
+
+   ```
+   {
+    "station": "City Center Station",
+    "distanceFromCenter": 41,
+    "arrivalTime": "16:00",
+    "departureTime": "16:05"
+   }
+   ```
+
+6. patch `/schedule/:trainId/:scheduleId`
+
+   scheduleId = ObjectId of a single object inside stops array. Each stop is considered a schedule.
+
+   updates a single schedule inside the stops array of that train.
+
+   - example `req.body`
+
+   ```
+   // single or multiple fields updates can be performed
+
+   {
+    "station": "City Center Station",
+    "distanceFromCenter": 41,
+    "arrivalTime": "16:00",
+    "departureTime": "16:05"
+   }
    ```
